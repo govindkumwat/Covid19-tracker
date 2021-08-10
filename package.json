@@ -3,12 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@headlessui/react": "^1.4.0",
+    "@heroicons/react": "^1.0.3",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "chart.js": "^3.5.0",
+    "classname": "0.0.0",
+    "classnames": "^2.3.1",
+    "headlessui": "0.0.0",
+    "leaflet": "^1.7.1",
+    "lodash": "^4.17.21",
+    "ng2-charts": "^2.4.3",
+    "numeral": "^2.0.6",
     "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.4",
+    "react-countup": "^5.2.0",
     "react-dom": "^17.0.2",
+    "react-leaflet": "^3.2.1",
     "react-scripts": "4.0.3",
+    "tailwindcss": "^2.2.7",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -23,16 +41,9 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }

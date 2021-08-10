@@ -1,38 +1,185 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+
+body{
+  background-color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+* {
+  transition: all 0.5s ease-out;
+}
+
+
+.shodow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.form {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border: none;
+  outline:none;
+  box-shadow: none;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+  
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+  padding-left: 7px
+}
+
+.left-pan i {
+  padding-left: 10px
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none
+}
+
+.box-design{
+  border: none;
+  outline: none;
+  
+}
+
+img{
+  max-width: 25%;
+  
+}
+
+TableCell{
+  width: 100%;
+}
+
+.cursor{
+  cursor: pointer;
+}
+.navigation{
+  overflow: auto;
+    scrollbar-color: var(--scrollbar) transparent;
+}
+
+/* Footer */
+
+footer{
+  align-items: center;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footerhead{
+  
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  font-family: 'poppins', sans-serif;
+  border-radius: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.links{
+  cursor: pointer;
+}
+
+.card {
+  outline:none !important;
+  border:none;
+  height: 10vh
+  
+
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    
+    
+    max-height:100vh;
+    height: 30vh;
+    max-width:100vh;
+    width: 100vh;
+    margin : 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
+
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.education {
+  --bg-color: #ffffff;
+  --bg-color-light: #ffffff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 255, 255, 0.48);
+}
+
+.card {
+  width: 250px;
+  height: 140px;
+  background: #E59935;
+  border-top-right-radius: 10px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  box-shadow: 0 10px 20px rgba(70, 69, 69, 0.5), 0 4px 8px rgba(0,0,0,.03);
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(253, 196,196, 0.5), 0 4px 8px rgba(0,0,0,.03);
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.formdesign{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(12, 12, 12, 0.3), 0 4px 8px rgba(0,0,0,.03);
+  margin-top: 30px;
+
 }
+
+
+
+
